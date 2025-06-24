@@ -1,0 +1,316 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav{
+    /*border:1px solid white;*/
+    padding-bottom: 60px;
+}
+
+#home a{
+    color: white;
+    text-decoration: none;
+}
+
+#home a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#about a{
+    color: white;
+    text-decoration: none;
+}
+
+#about a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#name{
+    color: #008080;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+    font-family: "Montserrat";
+    float:left;
+}
+
+#menu{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+    font-size: 30px;
+}
+
+#homemain{
+    font-size: 36px;
+    padding-left: 90px;
+    position:relative;
+    top: 60px;
+}
+
+#homemain i{
+    font-size: 26px;
+    color: #008080;
+    position: relative;
+    bottom:10px;
+}
+
+#textpartmain{
+    /*border:2px solid gray;*/
+    color: white;
+    width:60%;
+    padding:50px;
+    padding-left:90px;
+    font-size:45px;
+    line-height: 80px;
+    float: left;
+    position: relative;
+    bottom: 40px;
+}
+
+#passion{
+    font-size:22px;
+    padding-top: 45px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #a4a8a4;
+}
+
+#aboutmain{
+    font-size: 36px;
+    position:relative;
+    top: 60px;
+}
+
+#aboutmain i{
+    font-size: 26px;
+    color: #008080;
+    position: relative;
+    bottom:10px;
+}
+
+#Aboutt{
+    margin-top:500px;
+    padding-top: 50px;
+    color: white;
+    clear: both;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#textabout{
+    /*border:2px solid gray;*/
+    padding-top: 20px;
+    font-size:30px;
+    line-height: 45px;
+
+}
+
+#Aboutt ul p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+#Aboutt li{
+    font-size: 25px;
+}
+
+#smalltxta{
+    color: #a4a8a4;
+    font-size: 20px;
+}
+
+#skillss{
+    margin-bottom: 150px;
+}
+
+#skillsmain{
+    font-size: 36px;
+    position:relative;
+    padding-left: 90px;
+    top: 60px;
+}
+
+#skillsmain i{
+    font-size: 26px;
+    color: #008080;
+    position: relative;
+    bottom:10px;
+}
+
+#SKILLS a{
+    color: white;
+    text-decoration: none;
+}
+
+#SKILLS a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#skilsslist{
+    font-size: 34px;
+    padding-left: 90px;
+    padding-top: 60px;
+    line-height: 50px;
+}
+
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#contactmain{
+    font-size: 36px;
+    position:relative;
+    padding-left: 90px;
+    top: 60px;
+}
+
+#contactmain i{
+    font-size: 26px;
+    color: #008080;
+    position: relative;
+    bottom:10px;
+}
+
+#gmail{
+    padding-top: 50px;
+    padding-left: 110px;
+    font-size: 50px;
+}
+
+#gmail a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+    position: relative;
+    bottom:5px;
+}
+
+#gmail a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 42px;
+    padding-left: 20px;
+}
+
+#phone{
+    padding-top: 50px;
+    padding-left: 110px;
+    font-size: 50px;
+}
+
+#number{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 20px;
+    position: relative;
+    bottom:5px;
+}
+
+#instagram{
+    padding-top: 50px;
+    padding-left: 110px;
+    font-size: 60px;
+}
+
+#instagram a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 20px;
+    position: relative;
+    bottom:7px;
+}
+
+#instagram a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 47px;
+    padding-left: 20px;
+}
+
+
+#facebook{
+    padding-top: 50px;
+    padding-left: 110px;
+    font-size: 60px;
+}
+
+#facebook a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 15px;
+    position: relative;
+    bottom:5px;
+}
+
+#facebook a:hover{
+    color: #cdad7d;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 47px;
+    padding-left: 20px;
+}
+
+#butt{
+    padding-top: 50px;
+    padding-left: 110px;
+    font-size: 60px;
+    /*border: 2px solid white;*/
+}
+
+#butt button {
+    background-color: #008080;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#butt button:hover {
+    background-color: #006666;
+}
+
+footer{
+    color: white;
+    clear: both;
+    margin-top: 60px;
+    padding-top: 10px;
+    border-top:1px solid #a4a8a4;
+    text-align: center;
+    font-size: 18px;
+}
+
